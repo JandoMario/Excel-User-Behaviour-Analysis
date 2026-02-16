@@ -1,2 +1,10 @@
 # Excel-User-Behaviour-Analysis
 Data analysis project focusing on fitness tracker data to identify user behavior trends, demonstrating data cleaning processes and dashboard visualization in Excel. 
+
+EN: The project was implemented with the aim of analyzing historical Fitbit tracker data to provide actionable insights for Bellabeat’s marketing strategy.
+The process began with the cleaning and structuring of over 20,000 records, including the removal of duplicates and handling of null values. I utilized the HOUR() function to extract 24-hour bins from complex timestamps for activity analysis.
+The analytical phase focused on ensuring statistical accuracy through the use of the AVERAGEIFS function, which was used to calculate weighted hourly step averages across the entire dataset. I also categorized users into "Sedentary," "Active," and "Very Active" segments based on daily step averages to define primary marketing targets. The final analysis identified a significant activity peak and established a correlation between activity levels and sleep efficiency by indexing "Minutes Asleep" against "Time in Bed".
+
+SK: Projekt bol realizovaný s cieľom analyzovať historické údaje zo sledovacích zariadení Fitbit s cieľom poskytnúť užitočné poznatky pre marketingovú stratégiu spoločnosti Bellabeat.
+Proces sa začal čistením a štruktúrovaním viac ako 20 000 záznamov vrátane odstránenia duplikátov a spracovania nulových hodnôt. Na extrakciu 24-hodinových intervalov z komplexných časových pečiatok pre analýzu aktivity som použil funkciu HOUR().
+Analytická fáza sa zamerala na zabezpečenie štatistickej presnosti pomocou funkcie AVERAGEIFS, ktorá sa použila na výpočet vážených hodinových priemerov krokov v celom súbore údajov. Používateľov som tiež kategorizoval do segmentov "Sedentary," "Active," a "Very Active" na základe denných priemerov krokov, aby som určil primárne marketingové ciele. Záverečná analýza identifikovala významný vrchol aktivity a stanovila koreláciu medzi úrovňou aktivity a efektivitou spánku indexovaním „Minutes Asleep“ oproti „Time in Bed“.
